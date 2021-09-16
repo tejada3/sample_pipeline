@@ -12,7 +12,7 @@ phases:
         --template-file sam-template.yml
         --s3-bucket get-person-age-bucket
         --output-template-file packaged-template.yml
-      -cat packaged-template.yml
+      - cat packaged-template.yml
 artifacts:
   files:
     - packaged-template.yml
