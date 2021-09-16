@@ -10,7 +10,7 @@ phases:
       - mvn package
       - sam package
         --template-file sam-template.yml
-        --s3-bucket get-books-fx-bucket
+        --s3-bucket get-Person-age-bucket
         --output-template-file packaged-template.yml
       -cat packaged-template.yml
 
